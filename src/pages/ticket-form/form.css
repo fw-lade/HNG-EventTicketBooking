@@ -154,11 +154,40 @@
 .user-details{
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 .user-details span{
-color: red;
+color: #ffff;
+font-family: Roboto;
+font-size: 12px;
+font-weight: 600;
 }
 .tickp{
   height: 140px;
   width: 140px;
+  border: 4px solid #24a0b5;
+  border-radius: 8px;
+  position: absolute;
+  top: 20%;
+  left: 27%;
+}
+.tickname{
+  position: absolute;
+  top: 52%;
+  left: 45px;
+}
+.tickemail{
+  position: absolute;
+  top: 52%;
+  right: 40px;
+}
+.ticknumber{
+  position: absolute;
+  top: 59%;
+  right: 100px;
+}
+.ticktype{
+  position: absolute;
+  top: 59%;
+  left: 45px;
 }

@@ -102,7 +102,7 @@ const TicketForm = () => {
           <h2>Attendee Details</h2>
           <span>Step 2/3</span>
         </div>
-        <img src={progress2} alt="progress" />
+        <img className="progressbar" src={progress2} alt="progress" />
       </div>
       <form className="ticket-details" onSubmit={(e) => e.preventDefault()}>
         <div className="picture">

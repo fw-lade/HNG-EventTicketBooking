@@ -34,7 +34,7 @@ const Events = () => {
           <h2>Ticket Selection</h2>
           <span>Step 1/3</span>
         </div>
-        <img src={progress} alt="" />
+        <img className="progressbar" src={progress} alt="" />
       </div>
       <div className="ticket-details">
         <div className="ticket-texts">

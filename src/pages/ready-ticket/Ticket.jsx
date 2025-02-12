@@ -17,7 +17,7 @@ const Ticket = () => {
             <h2>Ready</h2>
             <span>Step 3/3</span>
           </div>
-          <img src={progress2} alt="" />
+          <img className="progressbar" src={progress2} alt="" />
         </div>
         <div className="ticket">
           <div className="ticket-header">
@@ -26,9 +26,10 @@ const Ticket = () => {
           </div>
           <div className="user-details">
             <img src={ticket} alt="" />
-            <span>{name}</span>
-            <span>{email}</span>
-            <span>{number}</span>
+            <span className="tickname">{name}</span>
+            <span className="tickemail">{email}</span>
+            <span className="ticknumber">{number}</span>
+            <span className="ticktype">Regular</span>
             <img className="tickp" src={photo} alt="" />
           </div>
           <div className="buttons2">
