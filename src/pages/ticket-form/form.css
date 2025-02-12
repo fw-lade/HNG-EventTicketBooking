@@ -1,0 +1,164 @@
+.buttons2 {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+.buttons2 button {
+  border-radius: 8px;
+  line-height: 150%;
+  font-size: 16px;
+  width: 270px;
+  height: 48px;
+  cursor: pointer;
+}
+.buttons2 a:first-child button {
+  border: 1px solid #24a0b5;
+  background: transparent;
+  color: #24a0b5;
+}
+.buttons2 button:last-child {
+  background: #24a0b5;
+  color: #ffff;
+  border: none;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+.input img {
+  position: absolute;
+  left: 12px;
+  top: 45%;
+}
+.input label {
+  color: #fafafa;
+  line-height: 150%;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+.input textarea {
+  height: 127px;
+  resize: none;
+  padding: 12px !important;
+}
+.input input {
+  height: 48px;
+}
+.input input,
+.input textarea {
+  border: 2px solid #07373f;
+  background-color: transparent;
+  border-radius: 12px;
+  color: #fafafa;
+  font-family: Roboto;
+  padding: 0 12px;
+}
+.email {
+  padding-left: 42px !important;
+}
+.email::placeholder {
+  color: #fafafa;
+  line-height: 150%;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 400;
+}
+.picture {
+  background: #052228;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border: 1px solid #07373f;
+  border-radius: 24px;
+  padding-bottom: 32px;
+}
+.picture h2 {
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 150%;
+  color: #fafafa;
+}
+.photo-box {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 200px;
+  align-items: center;
+}
+.photo {
+  cursor: pointer;
+}
+
+.ticket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.ticket-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  color: #fafafa;
+  font-family: Roboto;
+}
+.ticket-header h1 {
+  font-size: 32px;
+}
+.ticket-header p {
+  font-size: 16px;
+  font-weight: 400;
+}
+.photo img {
+  width: 240px;
+  height: 240px;
+  border-radius: 12px;
+}
+.photo-box {
+  position: relative;
+  /* width: 120px; */
+  /* height: 120px; */
+  /* border-radius: 50%; */
+  /* overflow: hidden; */
+  cursor: pointer;
+}
+
+.photo-box img {
+  /* width: 100%; */
+  /* height: 100%; */
+  /* object-fit: cover; */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.photo-box:hover img {
+  opacity: 0.4; /* Makes uploaded image transparent on hover */
+}
+
+.error{
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Roboto;
+}
+
+.user-details{
+  display: flex;
+  flex-direction: column;
+}
+.user-details span{
+color: red;
+}
+.tickp{
+  height: 140px;
+  width: 140px;
+}
